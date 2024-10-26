@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css web page</title>
+</head>
+
+<body>
+    <style>
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+
+        nav>ul {
+            display: flex;
+            gap: 30px;
+
+        }
+
+        nav>ul>li {
+            list-style: none;
+            display: flex;
+        }
+
+        nav>ul>li>a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section1 {
+            display: flex;
+            height: 600px;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+        }
+
+        .section1 h1 {
+            color: darkblue;
+            font-weight: bolder;
+        }
+
+        .section1 p {
+            color: blue;
+        }
+
+        .leftdiv1 {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+        }
+
+        .rightdiv1 img {
+            width: 400px;
+            height: 500px;
+            border-radius: 100px;
+        }
+
+
+        #btn1 {
+            background-color: darkblue;
+            color: white;
+            border-radius: 20px;
+            padding: 12px;
+        }
+
+        #btn2 {
+            background-color: rgb(204, 219, 224);
+            color: black;
+            border-radius: 20px;
+            padding: 15px;
+            border: none;
+        }
+
+        .section2 {
+            display: flex;
+        }
+
+        .div1 {
+            display: flex;
+            flex-direction: column;
+            width: 430px;
+            border: 2px solid whitesmoke;
+
+        }
+
+        .div1 img {
+            border-radius: 20px;
+        }
+
+        .subdiv img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+
+
+        }
+
+
+        .subdiv {
+            display: flex;
+            align-items: center;
+        }
+
+        .section3 {
+            display: flex;
+            justify-content: center;
+            height: 150px;
+            align-items: center;
+        }
+
+        .section4 {
+            background-color: darkblue;
+            color: white;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .section4 h1 {
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .section4div {
+            color: white;
+            width: 300px;
+            text-align: center;
+        }
+
+        .section4div img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .innerdiv {
+            display: flex;
+            justify-content: space-around;
+            gap: 50px;
+            width: 80%;
+            margin: auto;
+
+        }
+    </style>
+
+    <body>
+        <header>
+            <h2>Quest</h2>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="section1">
+            <div class="leftdiv1">
+                <h1>Grow your Skills,define your future</h1>
+                <p>presenting Academy,the tech school of the future.We teach you the right skills to be prepared for
+                    tomorrow.</p>
+                <div>
+
+                    <button id="btn1">Explore Courses</button>
+                    <button id="btn2"> Learn More</button>
+                </div>
+
+            </div>
+            <div class="rightdiv1">
+                <img src="https://669c0a13f8996da7eec64aa1--dazzling-cascaron-586597.netlify.app/img1.png" alt="img1">
+            </div>
+
+
+        </section>
+        <div class="section2">
+            <div class="div1">
+                <img src="https://669c0a13f8996da7eec64aa1--dazzling-cascaron-586597.netlify.app/image2.png" alt="">
+                <h2>Advance Logo Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, impedit?</p>
+                <div class="subdiv">
+                    <img src="https://669c0a13f8996da7eec64aa1--dazzling-cascaron-586597.netlify.app/img1.png" alt="">
+                    <h3>Awesome Author</h3>
+                </div>
+            </div>
+            <div class="div1">
+                <img src=" https://669c0a13f8996da7eec64aa1--dazzling-cascaron-586597.netlify.app/image2.png" alt="">
+                <h2>Advance Logo Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, impedit?</p>
+                <div class="subdiv">
+                    <img src="https://669c0a13f8996da7eec64aa1--dazzling-cascaron-586597.netlify.app/img1.png" alt="">
+                    <h3>Awesome Author</h3>
+                </div>
+            </div>
+            <div class="div1">
+                <img src="https://669c0a13f8996da7eec64aa1--dazzling-cascaron-586597.netlify.app/image2.png" alt="">
+                <h2>Advance Logo Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, impedit?</p>
+                <div class="subdiv">
+                    <img src="https://669c0a13f8996da7eec64aa1--dazzling-cascaron-586597.netlify.app/img1.png" alt="">
+                    <h3>Awesome Author</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section3">
+            <div>
+                <button id="btn1">BUTTON</button>
+
+
+            </div>
+        </div>
+        <div class="section4">
+            <h1>H2 heading module</h1>
+            <div class="innerdiv">
+
+                <div class="section4div">
+                    <img src="https://669c0a13f8996da7eec64aa1--dazzling-cascaron-586597.netlify.app/img1.avif" alt="">
+                    <h2>1.Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias magni repellendus
+                        in
+                        laborum.</p>
+                </div>
+                <div class="section4div">
+                    <img src="https://669c0a13f8996da7eec64aa1--dazzling-cascaron-586597.netlify.app/img1.avif" alt="">
+                    <h2>2.Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias magni repellendus
+                        in
+                        laborum.</p>
+                </div>
+
+                <div class="section4div">
+                    <img src="https://669c0a13f8996da7eec64aa1--dazzling-cascaron-586597.netlify.app/img1.avif" alt="">
+                    <h2>3.Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias magni
+                        repellendusinlaborum.</p>
+                </div>
+
+
+            </div>
+    </body>
+
+</html>
